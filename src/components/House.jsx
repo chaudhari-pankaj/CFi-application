@@ -9,9 +9,13 @@ const House = () => {
   <div className="otherstuff">
     {/* <h2>hello</h2> */}
   </div>
-    <script src="./script.js"></script>
+  <div className="boxcontainer">
+  <script src="./script.js"></script>
     <div className="box">
     </div>
+  </div>
+    
+    
 </div>
   )
 }

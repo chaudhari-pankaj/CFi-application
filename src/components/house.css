@@ -19,13 +19,24 @@
     position:absolute;
     top:0;
     z-index:1;
+    grid-template-columns: 0.35fr 0.65fr;
+}
+.boxconatiner{
+    display:grid;
+    /* grid-column:1/1; */
+    justify-content:center;
+    align-items:center;
 }
 .box{
     /* border:1px solid black; */
+    /* grid-column:1/1; */
+    position:fixed;
+    /* right:37%; */
+    /* top:40%; */
     background-color: white;
     color:black;
     height:200px;
-    width:100%;
+    /* width:100%; */
     /* padding:10px; */
     border-radius: 10px;
     background-color: rgb(213, 207, 233);
@@ -33,4 +44,8 @@
     /* display:grid; */
     /* justify-content:center;
     align-items:center; */
+}
+.box h1{
+    padding-left:100px;
+    padding-right:100px;
 }

@@ -6,12 +6,12 @@ const Navbar = () => {
       <div className="logo">
       <h1>Application.</h1>
       </div>
-      {/* <nav>
+      <nav>
                 <ul>
                     <li>Home</li>
                     <li>About</li>
                 </ul>
-            </nav> */}
+            </nav>
             <div className="togglecontainer">
               {/* <button id="icon">dark</button> */}
             </div>
