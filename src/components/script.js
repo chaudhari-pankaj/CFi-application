@@ -45,7 +45,7 @@ setTimeout(unnotify,5000);
 let asetup,apunchline;
 if(Notification.permission==="granted"){
     setInterval(notify,10000);
-    notify();
+    // notify();
     // unnotify();
 }
 else{

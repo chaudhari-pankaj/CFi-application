@@ -6,9 +6,8 @@ import './house.css';
 const House = () => {
   return (
 <div className="container">
-  <div className="otherstuff">
-    {/* <h2>hello</h2> */}
-  </div>
+  {/* <div className="otherstuff">
+  </div> */}
   <div className="boxcontainer">
   <script src="./script.js"></script>
     <div className="box">

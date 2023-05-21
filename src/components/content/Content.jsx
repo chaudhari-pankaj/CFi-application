@@ -37,7 +37,7 @@ const Content = () => {
        <img src={tate} alt="where's tate"></img>
        </div>
        
-        {/* <script src="./theme.js" ></script> */}
+        {/* <script src="./theme.js" type="text/javascript" defer></script> */}
        </div>
        {/* <button onClick={handleclick} >heleo</button> */}
       </div>
